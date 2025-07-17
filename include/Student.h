@@ -1,6 +1,7 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 #include <string> // for using std::string
+#include <exception>
 
 class Student{
 private:

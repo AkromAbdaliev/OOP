@@ -12,4 +12,5 @@ public:
     void setDepartment(const std::string&);
     std::string getDepartment() const;
     void printStudentInfo() const override;
-}
+};
+#endif

@@ -2,7 +2,7 @@
 #include <iostream>
 
 Student::Student(){}
-Studen::Student(const std::string& fname, int snumber)
+Student::Student(const std::string& fname, int snumber)
     : fullName(fname), studentNumber(snumber){}
 
 void Student::setFullName(const std::string& fname)

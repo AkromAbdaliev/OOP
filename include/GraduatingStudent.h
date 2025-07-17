@@ -10,3 +10,4 @@ public:
     std::string getCertificate() const;
     void printStudentInfo() const override;
 };
+#endif
