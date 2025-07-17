@@ -2,3 +2,7 @@
 /home/sjke/OOP/build/CMakeFiles/main_exec.dir
 /home/sjke/OOP/build/CMakeFiles/edit_cache.dir
 /home/sjke/OOP/build/CMakeFiles/rebuild_cache.dir
+/home/sjke/OOP/build/CMakeFiles/list_install_components.dir
+/home/sjke/OOP/build/CMakeFiles/install.dir
+/home/sjke/OOP/build/CMakeFiles/install/local.dir
+/home/sjke/OOP/build/CMakeFiles/install/strip.dir

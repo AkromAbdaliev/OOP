@@ -18,6 +18,20 @@ add_library(student_lb
     src/EngineeringStudent.cpp
     src/GraduatingStudent.cpp
 )
+
+include(GNUInstallDirs)
+
+install(TARGETS student_lb
+    ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
+)
+
+install(FILES
+    include/Student.h
+    include/EngineeringStudent.h
+    include/GraduatingStudent.h
+    DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+)
+
 # update main dir name
 add_executable(main_exec
   main.cpp

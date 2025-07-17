@@ -2,7 +2,6 @@
 #include "EngineeringStudent.h"
 #include "GraduatingStudent.h"
 #include<iostream>
-#include <exception>
 
 using std::cout;
 using std::string;
@@ -23,7 +22,7 @@ int main(){
     EngineeringStudent engineer1("Jane Smith", 2229999 ,"Computer");
     engineer1.printStudentInfo();
 
-    GraduatingStudent graduate("Dior Homme", 2112211 ,"Software", "AA10101011");
+    GraduatingStudent graduate("Dior Humbre", 2112211 ,"Software", "AA10101011");
     graduate.printStudentInfo();
 
 

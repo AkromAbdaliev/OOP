@@ -6,7 +6,8 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-04a9f892f5259a221b8d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.14"
@@ -41,14 +42,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main_exec::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main_exec-Debug-ef8071c61c15c263aa70.json",
+					"jsonFile" : "target-main_exec-Debug-9ea812363e20a05a2cd8.json",
 					"name" : "main_exec",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "student_lb::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-student_lb-Debug-a2206060e9c89c9456aa.json",
+					"jsonFile" : "target-student_lb-Debug-3ed84baa26facd2d90af.json",
 					"name" : "student_lb",
 					"projectIndex" : 0
 				}
