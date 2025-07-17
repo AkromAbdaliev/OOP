@@ -4,7 +4,7 @@
 
 class Student{
 private:
-    std::fullName;
+    std::string fullName;
 protected:
     int studentNumber;
 public:
