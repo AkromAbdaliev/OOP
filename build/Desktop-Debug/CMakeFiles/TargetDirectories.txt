@@ -1,8 +1,14 @@
 /home/sjke/OOP/build/Desktop-Debug/CMakeFiles/student_lb.dir
-/home/sjke/OOP/build/Desktop-Debug/CMakeFiles/main_exec.dir
 /home/sjke/OOP/build/Desktop-Debug/CMakeFiles/edit_cache.dir
 /home/sjke/OOP/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
 /home/sjke/OOP/build/Desktop-Debug/CMakeFiles/list_install_components.dir
 /home/sjke/OOP/build/Desktop-Debug/CMakeFiles/install.dir
 /home/sjke/OOP/build/Desktop-Debug/CMakeFiles/install/local.dir
 /home/sjke/OOP/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/sjke/OOP/build/Desktop-Debug/test_lb/CMakeFiles/test_lb.dir
+/home/sjke/OOP/build/Desktop-Debug/test_lb/CMakeFiles/edit_cache.dir
+/home/sjke/OOP/build/Desktop-Debug/test_lb/CMakeFiles/rebuild_cache.dir
+/home/sjke/OOP/build/Desktop-Debug/test_lb/CMakeFiles/list_install_components.dir
+/home/sjke/OOP/build/Desktop-Debug/test_lb/CMakeFiles/install.dir
+/home/sjke/OOP/build/Desktop-Debug/test_lb/CMakeFiles/install/local.dir
+/home/sjke/OOP/build/Desktop-Debug/test_lb/CMakeFiles/install/strip.dir

@@ -175,41 +175,17 @@ student_lb/fast:
 .PHONY : student_lb/fast
 
 #=============================================================================
-# Target rules for targets named main_exec
+# Target rules for targets named test_lb
 
 # Build rule for target.
-main_exec: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_exec
-.PHONY : main_exec
+test_lb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_lb
+.PHONY : test_lb
 
 # fast build rule for target.
-main_exec/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/build
-.PHONY : main_exec/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/main.cpp.s
-.PHONY : main.cpp.s
+test_lb/fast:
+	$(MAKE) $(MAKESILENT) -f test_lb/CMakeFiles/test_lb.dir/build.make test_lb/CMakeFiles/test_lb.dir/build
+.PHONY : test_lb/fast
 
 src/EngineeringStudent.o: src/EngineeringStudent.cpp.o
 .PHONY : src/EngineeringStudent.o
@@ -295,11 +271,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... main_exec"
 	@echo "... student_lb"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test_lb"
 	@echo "... src/EngineeringStudent.o"
 	@echo "... src/EngineeringStudent.i"
 	@echo "... src/EngineeringStudent.s"

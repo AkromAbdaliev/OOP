@@ -1,4 +1,1 @@
 /usr/local/lib/libstudent_lb.a
-/usr/local/include/Student.h
-/usr/local/include/EngineeringStudent.h
-/usr/local/include/GraduatingStudent.h

@@ -64,17 +64,32 @@ CMAKE_BINARY_DIR = /home/sjke/OOP/build/Desktop-Debug
 
 # The main recursive "all" target.
 all: CMakeFiles/student_lb.dir/all
-all: CMakeFiles/main_exec.dir/all
+all: test_lb/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: test_lb/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/student_lb.dir/clean
-clean: CMakeFiles/main_exec.dir/clean
+clean: test_lb/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory test_lb
+
+# Recursive "all" directory target.
+test_lb/all: test_lb/CMakeFiles/test_lb.dir/all
+.PHONY : test_lb/all
+
+# Recursive "preinstall" directory target.
+test_lb/preinstall:
+.PHONY : test_lb/preinstall
+
+# Recursive "clean" directory target.
+test_lb/clean: test_lb/CMakeFiles/test_lb.dir/clean
+.PHONY : test_lb/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/student_lb.dir
@@ -83,7 +98,7 @@ clean: CMakeFiles/main_exec.dir/clean
 CMakeFiles/student_lb.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_lb.dir/build.make CMakeFiles/student_lb.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_lb.dir/build.make CMakeFiles/student_lb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sjke/OOP/build/Desktop-Debug/CMakeFiles --progress-num=3,4,5,6 "Built target student_lb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sjke/OOP/build/Desktop-Debug/CMakeFiles --progress-num=1,2,3,4 "Built target student_lb"
 .PHONY : CMakeFiles/student_lb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -103,30 +118,30 @@ CMakeFiles/student_lb.dir/clean:
 .PHONY : CMakeFiles/student_lb.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main_exec.dir
+# Target rules for target test_lb/CMakeFiles/test_lb.dir
 
 # All Build rule for target.
-CMakeFiles/main_exec.dir/all: CMakeFiles/student_lb.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sjke/OOP/build/Desktop-Debug/CMakeFiles --progress-num=1,2 "Built target main_exec"
-.PHONY : CMakeFiles/main_exec.dir/all
+test_lb/CMakeFiles/test_lb.dir/all: CMakeFiles/student_lb.dir/all
+	$(MAKE) $(MAKESILENT) -f test_lb/CMakeFiles/test_lb.dir/build.make test_lb/CMakeFiles/test_lb.dir/depend
+	$(MAKE) $(MAKESILENT) -f test_lb/CMakeFiles/test_lb.dir/build.make test_lb/CMakeFiles/test_lb.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sjke/OOP/build/Desktop-Debug/CMakeFiles --progress-num=5,6 "Built target test_lb"
+.PHONY : test_lb/CMakeFiles/test_lb.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main_exec.dir/rule: cmake_check_build_system
+test_lb/CMakeFiles/test_lb.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sjke/OOP/build/Desktop-Debug/CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main_exec.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_lb/CMakeFiles/test_lb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sjke/OOP/build/Desktop-Debug/CMakeFiles 0
-.PHONY : CMakeFiles/main_exec.dir/rule
+.PHONY : test_lb/CMakeFiles/test_lb.dir/rule
 
 # Convenience name for target.
-main_exec: CMakeFiles/main_exec.dir/rule
-.PHONY : main_exec
+test_lb: test_lb/CMakeFiles/test_lb.dir/rule
+.PHONY : test_lb
 
 # clean rule for target.
-CMakeFiles/main_exec.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_exec.dir/build.make CMakeFiles/main_exec.dir/clean
-.PHONY : CMakeFiles/main_exec.dir/clean
+test_lb/CMakeFiles/test_lb.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test_lb/CMakeFiles/test_lb.dir/build.make test_lb/CMakeFiles/test_lb.dir/clean
+.PHONY : test_lb/CMakeFiles/test_lb.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

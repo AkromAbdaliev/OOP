@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/sjke/OOP/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/home/sjke/OOP/test_lb/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake"
@@ -37,10 +38,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test_lb/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/student_lb.dir/DependInfo.cmake"
-  "CMakeFiles/main_exec.dir/DependInfo.cmake"
+  "test_lb/CMakeFiles/test_lb.dir/DependInfo.cmake"
   )

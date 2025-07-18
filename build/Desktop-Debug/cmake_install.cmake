@@ -46,12 +46,9 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/sjke/OOP/build/Desktop-Debug/libstudent_lb.a")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/sjke/OOP/include/Student.h"
-    "/home/sjke/OOP/include/EngineeringStudent.h"
-    "/home/sjke/OOP/include/GraduatingStudent.h"
-    )
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/sjke/OOP/build/Desktop-Debug/test_lb/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

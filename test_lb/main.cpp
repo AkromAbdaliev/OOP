@@ -1,5 +1,3 @@
-#include "Student.h"
-#include "EngineeringStudent.h"
 #include "GraduatingStudent.h"
 #include<iostream>
 

@@ -270,6 +270,15 @@ QT_CREATOR_SKIP_PACKAGE_MANAGER_SETUP:BOOL=OFF
 //No help, variable specified on the command line.
 QT_QMAKE_EXECUTABLE:FILEPATH=/usr/lib/qt5/bin/qmake
 
+//Value Computed by CMake
+test_lb_BINARY_DIR:STATIC=/home/sjke/OOP/build/Desktop-Debug/test_lb
+
+//Value Computed by CMake
+test_lb_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+test_lb_SOURCE_DIR:STATIC=/home/sjke/OOP/test_lb
+
 
 ########################
 # INTERNAL cache entries
@@ -385,7 +394,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
