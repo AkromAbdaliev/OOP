@@ -22,6 +22,7 @@ install(TARGETS student_lb
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
 )
 
+
 target_include_directories(student_lb
     PUBLIC ${CMAKE_SOURCE_DIR}/include
 )
